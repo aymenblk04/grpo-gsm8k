@@ -15,7 +15,7 @@ def pick_dtype() -> torch.dtype:
     """bf16 on Ampere+, fp16 on older GPUs such as the Colab T4, fp32 on CPU."""
     if not torch.cuda.is_available():
         return torch.float32
-    return torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
+    return torch.bfloat16 if torch.cuda.is_bf16_supported(including_emulation=False) else torch.float16
 
 
 def load_model(model_path: str, adapter_path: str | None = None):
