@@ -11,12 +11,19 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from grpo_math.rewards import STRICT_FORMAT_RE, extract_answer, is_correct
 
 
+def pick_dtype() -> torch.dtype:
+    """bf16 on Ampere+, fp16 on older GPUs such as the Colab T4, fp32 on CPU."""
+    if not torch.cuda.is_available():
+        return torch.float32
+    return torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
+
+
 def load_model(model_path: str, adapter_path: str | None = None):
     tokenizer = AutoTokenizer.from_pretrained(adapter_path or model_path)
     tokenizer.padding_side = "left"  # required for batched generation
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
-    dtype = torch.bfloat16 if torch.cuda.is_available() else torch.float32
+    dtype = pick_dtype()
     model = AutoModelForCausalLM.from_pretrained(model_path, dtype=dtype)
     if adapter_path:
         from peft import PeftModel
