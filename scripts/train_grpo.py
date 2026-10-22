@@ -19,6 +19,7 @@ def main():
     cfg = load_config(args.config, args.overrides)
     trainer = train(cfg)
     trainer.save_model(cfg["output_dir"])
+    trainer.save_state()  # trainer_state.json with the log history, used by plot.py
 
 
 if __name__ == "__main__":
