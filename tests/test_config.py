@@ -19,4 +19,5 @@ def test_bad_override():
 def test_base_config_loads():
     cfg = load_config("configs/base.yaml")
     assert cfg["grpo"]["num_generations"] == 8
-    assert set(cfg["rewards"]) == {"correctness", "soft_format", "strict_format", "numeric"}
+    assert set(cfg["rewards"]) <= {"correctness", "lenient_correctness", "soft_format", "strict_format", "numeric"}
+    assert cfg["rewards"]["numeric"] == 0  # disabled after the v1 reward hack

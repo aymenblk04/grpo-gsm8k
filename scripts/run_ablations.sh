@@ -27,4 +27,7 @@ run g4          grpo.num_generations=4
 run g16         grpo.num_generations=16 grpo.per_device_train_batch_size=16 grpo.gradient_accumulation_steps=2
 
 # 3. reward shaping: correctness only vs. full shaped reward
-run correct_only rewards.soft_format=0 rewards.strict_format=0 rewards.numeric=0
+run correct_only rewards.lenient_correctness=0 rewards.correctness=1 rewards.soft_format=0 rewards.strict_format=0
+
+# 4. the v1 reward setup, to reproduce the reward hacking at full scale
+run v1_rewards rewards.lenient_correctness=0 rewards.correctness=1 rewards.numeric=1
