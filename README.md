@@ -95,18 +95,61 @@ LoRA), so the full training path is checked in CI without downloading a model.
 
 ## Results
 
-> Not run yet. This section will be filled with the numbers produced by
-> `scripts/plot.py` (`figures/results.md` and `figures/training_curves.png`).
+### v1: a reward-hacking run (Colab T4)
 
-| run | accuracy | format rate | mean chars |
+First short run: 100 GRPO steps, G = 4, 500 training questions, LoRA, fp16,
+`max_completion_length=200`, evaluated greedily on 200 test questions
+(`configs/v1.yaml` + the Colab overrides). Raw outputs are in
+[`docs/results/v1`](docs/results/v1).
+
+| model | accuracy (tagged) | accuracy (lenient) | format rate | mean length (chars) |
+|---|---|---|---|---|
+| Qwen2.5-0.5B-Instruct, zero-shot | 0.0% | **32.0%** | 0.0% | 798 |
+| + GRPO v1 (100 steps) | 7.5% | **7.5%** | 0.0% | 20 |
+
+*Tagged* only counts the number inside `<answer>`; *lenient* takes the last
+number of the output.
+
+![v1 training curves](docs/results/v1/training_curves.png)
+
+**What happened.** The total reward rises from 0.03 to about 0.55 in 30 steps
+while the completion length collapses from ~180 to ~10 tokens. By the end, the
+policy answers every question with a bare `<answer>N</answer>`:
+
+```
+gold 400  →  "<answer> 185 </answer>"
+gold 25   →  "<answer>15</answer>"
+```
+
+The reward was **hacked**. The two answer tags (0.25 from `soft_format`) and a
+bare number (0.25 from `numeric`) were worth 0.5 *without any reasoning*,
+which is far easier to collect than the correctness reward: the base model
+never used the tags, so correctness was almost always 0 at the start. The
+strict format reward stayed at 0 for the whole run because no sample ever
+contained a `<think>` block. Lenient accuracy shows the cost: the model went
+from 32% to 7.5% by giving up step-by-step reasoning.
+
+A second issue was evaluation: with 256 new tokens, ~80% of the zero-shot
+answers were cut off, and the tagged metric scored the base model at 0%.
+The baseline was therefore underestimated.
+
+### v2: fixes (to be run)
+
+- Format rewards give **nothing unless `<think>` contains real reasoning**
+  (≥ 20 characters). The exact v1 outputs are now a regression test
+  (`tests/test_rewards.py`).
+- The bare-number bonus is off by default.
+- New `lenient_correctness` reward: 1.0 for a correct tagged answer and 0.5
+  for a correct untagged one, so the base model's reasoning is rewarded from
+  the first step while the format is learned.
+- Longer completions (300 tokens in training, 400 at evaluation) and lenient
+  accuracy reported next to tagged accuracy.
+- A `v1_rewards` ablation in `run_ablations.sh` reproduces the hack at full scale.
+
+| model | accuracy (tagged) | accuracy (lenient) | format rate |
 |---|---|---|---|
-| zero_shot | – | – | – |
-| base (β=0.04, G=8, all rewards) | – | – | – |
-| β = 0 | – | – | – |
-| β = 0.1 | – | – | – |
-| G = 4 | – | – | – |
-| G = 16 | – | – | – |
-| correctness only | – | – | – |
+| zero-shot | – | – | – |
+| + GRPO v2 | – | – | – |
 
 ## Notes
 
