@@ -1,6 +1,6 @@
 # GRPO on GSM8K with verifiable rewards
 
-![tests](https://github.com/<your-username>/grpo-gsm8k/actions/workflows/tests.yml/badge.svg)
+![tests](https://github.com/aymenblk04/grpo-gsm8k/actions/workflows/tests.yml/badge.svg)
 
 Reinforcement-learning post-training of a small instruction model
 (Qwen2.5-0.5B-Instruct, swappable for Falcon3-1B or similar) on grade-school
