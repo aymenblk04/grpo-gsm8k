@@ -14,8 +14,12 @@ from fractions import Fraction
 
 ANSWER_RE = re.compile(r"<answer>(.*?)</answer>", re.DOTALL)
 STRICT_FORMAT_RE = re.compile(
-    r"^\s*<think>.+?</think>\s*<answer>.+?</answer>\s*$", re.DOTALL
+    r"^\s*<think>(.+?)</think>\s*<answer>.+?</answer>\s*$", re.DOTALL
 )
+THINK_RE = re.compile(r"<think>(.*?)</think>", re.DOTALL)
+# v1 showed the policy collapsing to "<answer>N</answer>" with an empty or
+# missing <think>; format rewards now require some actual reasoning
+MIN_THINK_CHARS = 20
 NUMBER_RE = re.compile(r"-?\d[\d,]*(?:\.\d+)?(?:/\d+)?")
 
 
@@ -53,6 +57,11 @@ def parse_number(text: str | None) -> Fraction | None:
         return None
 
 
+def has_reasoning(text: str) -> bool:
+    m = THINK_RE.search(text)
+    return m is not None and len(m.group(1).strip()) >= MIN_THINK_CHARS
+
+
 def is_correct(prediction: str | None, gold: str) -> bool:
     pred, ref = parse_number(prediction), parse_number(gold)
     return pred is not None and ref is not None and pred == ref
@@ -70,23 +79,48 @@ def correctness_reward(prompts, completions, answer, **kwargs) -> list[float]:
     return rewards
 
 
+def lenient_correctness_reward(prompts, completions, answer, **kwargs) -> list[float]:
+    """1.0 for a correct tagged answer, 0.5 if only the last number is correct.
+
+    The base model solves ~30% of problems but never uses the tags, so strict
+    correctness gives it no signal at first. Half credit keeps the reasoning
+    behaviour rewarded while the format is being learned.
+    """
+    rewards = []
+    for completion, gold in zip(completions, answer):
+        text = completion_text(completion)
+        tagged = extract_answer(text)
+        if tagged is not None:
+            rewards.append(1.0 if is_correct(tagged, gold) else 0.0)
+        else:
+            rewards.append(0.5 if is_correct(text, gold) else 0.0)
+    return rewards
+
+
 def strict_format_reward(prompts, completions, **kwargs) -> list[float]:
     """Whole completion must be exactly <think>...</think><answer>...</answer>."""
-    return [
-        0.5 if STRICT_FORMAT_RE.match(completion_text(c)) else 0.0
-        for c in completions
-    ]
+    rewards = []
+    for c in completions:
+        text = completion_text(c)
+        ok = STRICT_FORMAT_RE.match(text) and has_reasoning(text)
+        rewards.append(0.5 if ok else 0.0)
+    return rewards
 
 
 def soft_format_reward(prompts, completions, **kwargs) -> list[float]:
     """Partial credit for each tag, so the model gets signal early in training.
 
-    Each tag present exactly once gives 0.125; text after </answer> is
-    lightly penalised to discourage rambling.
+    Each tag present exactly once gives 0.125, but only if the <think> block
+    contains real reasoning: in v1 the answer tags alone were worth a free
+    0.25 and the policy learned to skip reasoning entirely. Text after
+    </answer> is lightly penalised to discourage rambling.
     """
     rewards = []
     for c in completions:
         text = completion_text(c)
+        if not has_reasoning(text):
+            rewards.append(0.0)
+            continue
         score = 0.0
         for tag in ("<think>", "</think>", "<answer>", "</answer>"):
             if text.count(tag) == 1:
@@ -110,6 +144,7 @@ def numeric_answer_reward(prompts, completions, **kwargs) -> list[float]:
 
 REWARD_REGISTRY = {
     "correctness": correctness_reward,
+    "lenient_correctness": lenient_correctness_reward,
     "strict_format": strict_format_reward,
     "soft_format": soft_format_reward,
     "numeric": numeric_answer_reward,

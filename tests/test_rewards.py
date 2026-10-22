@@ -4,6 +4,7 @@ from grpo_math.rewards import (
     correctness_reward,
     extract_answer,
     extract_gsm8k_gold,
+    lenient_correctness_reward,
     numeric_answer_reward,
     parse_number,
     soft_format_reward,
@@ -46,11 +47,23 @@ def test_strict_format():
 
 def test_soft_format_partial_credit():
     full, partial, trailing = soft_format_reward(
-        None, [GOOD, "<think>hm</think> 7", GOOD + " and more text"]
+        None, [GOOD, "<think>3 + 4 makes 7 in total</think> 7", GOOD + " and more text"]
     )
     assert full == 0.5
     assert partial == 0.25
     assert trailing < full
+
+
+def test_v1_reward_hack_gets_no_format_reward():
+    # what the v1 policy converged to: no reasoning, just the answer tag
+    hacked = ["<answer>15</answer>", "<think></think><answer>15</answer>", "<think>ok</think><answer>15</answer>"]
+    assert soft_format_reward(None, hacked) == [0.0, 0.0, 0.0]
+    assert strict_format_reward(None, hacked) == [0.0, 0.0, 0.0]
+
+
+def test_lenient_correctness():
+    comps = [GOOD, "so the total is 7 apples", "<answer>8</answer> but really 7", "no idea"]
+    assert lenient_correctness_reward(None, comps, answer=["7"] * 4) == [1.0, 0.5, 0.0, 0.0]
 
 
 def test_numeric_answer_reward():
