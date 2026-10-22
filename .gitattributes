@@ -1,0 +1,3 @@
+# keep LF line endings on every OS (CRLF on Windows broke applying patches)
+* text=auto eol=lf
+*.png binary
