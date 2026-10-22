@@ -1,0 +1,46 @@
+# v3: attack the two problems found in v2 (see README)
+#  - the model never samples the tags -> one worked example in the prompt
+#  - weak signal -> larger groups and a higher LoRA learning rate
+# Same rewards as v2.
+model_name: Qwen/Qwen2.5-0.5B-Instruct
+output_dir: outputs/v3
+seed: 42
+data:
+  train_samples: 2000
+  eval_samples: 250
+  few_shot: true
+rewards:
+  lenient_correctness: 1.0
+  correctness: 0.0
+  soft_format: 1.0
+  strict_format: 1.0
+  numeric: 0.0
+lora:
+  enabled: true
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj
+grpo:
+  learning_rate: 2.0e-05
+  num_generations: 8
+  per_device_train_batch_size: 8
+  gradient_accumulation_steps: 2
+  max_completion_length: 320
+  temperature: 0.9
+  beta: 0.04
+  num_train_epochs: 1
+  max_steps: 300
+  warmup_steps: 15
+  logging_steps: 5
+  save_steps: 100
+  bf16: true
+  gradient_checkpointing: true
+  report_to: none
