@@ -8,12 +8,13 @@ from grpo_math.evaluate import evaluate, load_model, score
 
 def test_score_metrics():
     metrics, records = score(
-        ["<think>a</think><answer>4</answer>", "<answer>5</answer>", "no idea"],
+        ["<think>a</think><answer>4</answer>", "<answer>5</answer>", "no idea, maybe 3"],
         ["4", "4", "4"],
     )
     assert metrics["accuracy"] == 1 / 3
     assert metrics["format_rate"] == 1 / 3
     assert metrics["answer_tag_rate"] == 2 / 3
+    assert metrics["accuracy_lenient"] == 1 / 3
     assert records[1]["prediction"] == "5"
 
 

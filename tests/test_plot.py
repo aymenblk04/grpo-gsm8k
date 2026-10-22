@@ -14,7 +14,7 @@ def test_plot_and_table(tmp_path):
     res = tmp_path / "results" / "base"
     res.mkdir(parents=True)
     (res / "metrics.json").write_text(
-        json.dumps({"accuracy": 0.5, "format_rate": 0.9, "mean_chars": 300.0})
+        json.dumps({"accuracy": 0.5, "accuracy_lenient": 0.6, "format_rate": 0.9, "mean_chars": 300.0})
     )
 
     figs = tmp_path / "figs"
@@ -22,5 +22,5 @@ def test_plot_and_table(tmp_path):
     plot.plot_curves(["base"], tmp_path / "outputs", figs)
     assert (figs / "training_curves.png").exists()
     table = plot.results_table(["zero_shot", "base"], tmp_path / "results")
-    assert "| base | 50.0% | 90.0% | 300 |" in table
+    assert "| base | 50.0% | 60.0% | 90.0% | 300 |" in table
     assert "zero_shot" not in table  # missing runs are skipped

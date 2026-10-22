@@ -16,7 +16,7 @@ def main():
     p.add_argument("--model", required=True)
     p.add_argument("--adapter", default=None, help="LoRA adapter directory")
     p.add_argument("--num-samples", type=int, default=None, help="default: full test set (1319)")
-    p.add_argument("--max-new-tokens", type=int, default=256)
+    p.add_argument("--max-new-tokens", type=int, default=400)
     p.add_argument("--batch-size", type=int, default=16)
     p.add_argument("--out", required=True)
     args = p.parse_args()

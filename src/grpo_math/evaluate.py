@@ -64,6 +64,8 @@ def score(completions: list[str], golds: list[str]) -> tuple[dict, list[dict]]:
                 "prediction": pred,
                 "gold": gold,
                 "correct": is_correct(pred, gold),
+                # last number anywhere in the text: fair to models that ignore the tags
+                "correct_lenient": is_correct(pred if pred is not None else text, gold),
                 "format_ok": bool(STRICT_FORMAT_RE.match(text)),
                 "num_chars": len(text),
             }
@@ -72,6 +74,7 @@ def score(completions: list[str], golds: list[str]) -> tuple[dict, list[dict]]:
     metrics = {
         "n": len(records),
         "accuracy": sum(r["correct"] for r in records) / n,
+        "accuracy_lenient": sum(r["correct_lenient"] for r in records) / n,
         "format_rate": sum(r["format_ok"] for r in records) / n,
         "answer_tag_rate": sum(r["prediction"] is not None for r in records) / n,
         "mean_chars": sum(r["num_chars"] for r in records) / n,
@@ -79,7 +82,7 @@ def score(completions: list[str], golds: list[str]) -> tuple[dict, list[dict]]:
     return metrics, records
 
 
-def evaluate(model, tokenizer, dataset, max_new_tokens=256, batch_size=16, out_dir=None):
+def evaluate(model, tokenizer, dataset, max_new_tokens=400, batch_size=16, out_dir=None):
     completions = generate(model, tokenizer, dataset["prompt"], max_new_tokens, batch_size)
     metrics, records = score(completions, dataset["answer"])
     if out_dir is not None:

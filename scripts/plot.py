@@ -12,11 +12,12 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
+# title -> metric keys, the first one present in a run is plotted
 CURVES = {
-    "reward": "Mean total reward",
-    "rewards/correctness_reward/mean": "Correctness reward",
-    "completions/mean_length": "Completion length (tokens)",
-    "kl": "KL to reference",
+    "Mean total reward": ["reward"],
+    "Correctness reward": ["rewards/lenient_correctness_reward/mean", "rewards/correctness_reward/mean"],
+    "Completion length (tokens)": ["completions/mean_length"],
+    "KL to reference": ["kl"],
 }
 
 
@@ -30,9 +31,11 @@ def load_history(run_dir: Path) -> list[dict]:
 
 def plot_curves(runs, outputs: Path, out: Path):
     fig, axes = plt.subplots(2, 2, figsize=(11, 7))
-    for ax, (key, title) in zip(axes.flat, CURVES.items()):
+    for ax, (title, keys) in zip(axes.flat, CURVES.items()):
         for run in runs:
-            hist = [h for h in load_history(outputs / run) if key in h]
+            history = load_history(outputs / run)
+            key = next((k for k in keys if any(k in h for h in history)), None)
+            hist = [h for h in history if key in h] if key else []
             if hist:
                 ax.plot([h["step"] for h in hist], [h[key] for h in hist], label=run)
         ax.set_title(title)
@@ -44,14 +47,19 @@ def plot_curves(runs, outputs: Path, out: Path):
 
 
 def results_table(runs, results: Path) -> str:
-    lines = ["| run | accuracy | format rate | mean chars |", "|---|---|---|---|"]
+    lines = [
+        "| run | accuracy (tagged) | accuracy (lenient) | format rate | mean chars |",
+        "|---|---|---|---|---|",
+    ]
     for run in runs:
         f = results / run / "metrics.json"
         if not f.exists():
             continue
         m = json.loads(f.read_text())
+        lenient = f"{m['accuracy_lenient']:.1%}" if "accuracy_lenient" in m else "–"
         lines.append(
-            f"| {run} | {m['accuracy']:.1%} | {m['format_rate']:.1%} | {m['mean_chars']:.0f} |"
+            f"| {run} | {m['accuracy']:.1%} | {lenient} "
+            f"| {m['format_rate']:.1%} | {m['mean_chars']:.0f} |"
         )
     return "\n".join(lines)
 
