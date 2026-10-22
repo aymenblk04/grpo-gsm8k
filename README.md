@@ -199,6 +199,11 @@ updates. The v1 hack moved the policy only because a trivial behaviour was
 paid well.
 
 ### Next steps
+
+`configs/v3.yaml` (the current Colab notebook) tests the first two points:
+one worked example in the prompt, G = 8 and a LoRA learning rate of 2e-5.
+The zero-shot baseline is evaluated with the same prompt.
+
 - **Bootstrap the format** before RL: a few-shot example in the prompt, or a
   short SFT warm-up on formatted solutions (the "cold start" used for
   DeepSeek-R1, see [sft-dpo-math](https://github.com/aymenblk04/sft-dpo-math)).
