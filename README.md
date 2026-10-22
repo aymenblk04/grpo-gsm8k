@@ -133,6 +133,26 @@ A second issue was evaluation: with 256 new tokens, ~80% of the zero-shot
 answers were cut off, and the tagged metric scored the base model at 0%.
 The baseline was therefore underestimated.
 
+### v1b: the bare-number bonus alone is enough
+
+An intermediate run (details in
+[`docs/results/v1b/NOTES.md`](docs/results/v1b/NOTES.md)) used format rewards
+that already required reasoning, but kept the v1 config: strict correctness
+and the 0.25 bare-number bonus.
+
+| model | accuracy (tagged) | accuracy (lenient) | format rate | mean length (chars) |
+|---|---|---|---|---|
+| zero-shot (400 new tokens) | 0.0% | **42.5%** | 0.0% | 911 |
+| + GRPO v1b (100 steps) | 7.0% | **7.0%** | 0.0% | 20 |
+
+The same collapse happened. Both format rewards stayed at 0 for the whole
+run, so the bare-number bonus (~0.23 of the ~0.30 mean reward) **drove the
+hack on its own**. A single cheap reward term is enough. The run also shows
+how much evaluation settings matter for the baseline: allowing 400 instead of
+256 new tokens moves the zero-shot lenient accuracy from 32% to 42.5%, since
+fewer answers are cut off. (The two zero-shot evaluations also use different
+random 200-question subsets.)
+
 ### v2: fixes (to be run)
 
 - Format rewards give **nothing unless `<think>` contains real reasoning**
