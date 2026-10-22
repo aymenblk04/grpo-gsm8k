@@ -1,200 +1,200 @@
-{"completion": "<answer> 185 </answer>", "prediction": "185", "gold": "400", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>15</answer>", "prediction": "15", "gold": "25", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>6</answer>", "prediction": "6", "gold": "3", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer>400</answer>", "prediction": "400", "gold": "800", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 3 </answer>", "prediction": "3", "gold": "5", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>4</answer>", "prediction": "4", "gold": "13", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer> 8 </answer>", "prediction": "8", "gold": "8", "correct": true, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>35</answer>", "prediction": "35", "gold": "30", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 50 </answer>", "prediction": "50", "gold": "145", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>10</answer>", "prediction": "10", "gold": "20", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>38</answer>", "prediction": "38", "gold": "90", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>6.80</answer>", "prediction": "6.80", "gold": "7", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 60 </answer>", "prediction": "60", "gold": "104", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 45 </answer>", "prediction": "45", "gold": "5", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>10</answer>", "prediction": "10", "gold": "25", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 384 </answer>", "prediction": "384", "gold": "96", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>240</answer>", "prediction": "240", "gold": "296", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 47 </answer>", "prediction": "47", "gold": "26", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>28</answer>", "prediction": "28", "gold": "52", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 120 </answer>", "prediction": "120", "gold": "150", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>120</answer>", "prediction": "120", "gold": "2", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>20</answer>", "prediction": "20", "gold": "5", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 720 </answer>", "prediction": "720", "gold": "144", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>600</answer>", "prediction": "600", "gold": "490", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>90</answer>", "prediction": "90", "gold": "320", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 36 </answer>", "prediction": "36", "gold": "144", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>5</answer>", "prediction": "5", "gold": "15", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer>36</answer>", "prediction": "36", "gold": "30", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 4 </answer>", "prediction": "4", "gold": "7", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 300 </answer>", "prediction": "300", "gold": "225", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>40</answer>", "prediction": "40", "gold": "8", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>18</answer>", "prediction": "18", "gold": "22", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>8</answer>", "prediction": "8", "gold": "8", "correct": true, "format_ok": false, "num_chars": 18}
-{"completion": "<answer>20</answer>", "prediction": "20", "gold": "56", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>40</answer>", "prediction": "40", "gold": "30", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>250</answer>", "prediction": "250", "gold": "250", "correct": true, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>37</answer>", "prediction": "37", "gold": "9", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>30,000</answer>", "prediction": "30,000", "gold": "90000", "correct": false, "format_ok": false, "num_chars": 23}
-{"completion": "<answer> 4 </answer>", "prediction": "4", "gold": "1", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 480 </answer>", "prediction": "480", "gold": "480", "correct": true, "format_ok": false, "num_chars": 22}
-{"completion": "<answer> 480 </answer>", "prediction": "480", "gold": "288", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>56</answer>", "prediction": "56", "gold": "40", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>1800</answer>", "prediction": "1800", "gold": "18000", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>28</answer>", "prediction": "28", "gold": "14", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>19</answer>", "prediction": "19", "gold": "12", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 4750 </answer>", "prediction": "4750", "gold": "17500", "correct": false, "format_ok": false, "num_chars": 23}
-{"completion": "<answer>15</answer>", "prediction": "15", "gold": "67", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 160 </answer>", "prediction": "160", "gold": "20", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>34</answer>", "prediction": "34", "gold": "98", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 2 </answer>", "prediction": "2", "gold": "4", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 3840 </answer>", "prediction": "3840", "gold": "1198", "correct": false, "format_ok": false, "num_chars": 23}
-{"completion": "<answer> 3 </answer>", "prediction": "3", "gold": "2", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>950</answer>", "prediction": "950", "gold": "4500", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 6250 </answer>", "prediction": "6250", "gold": "6,250", "correct": true, "format_ok": false, "num_chars": 23}
-{"completion": "<answer>18% </answer>", "prediction": "18%", "gold": "12", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>3600</answer>", "prediction": "3600", "gold": "168000", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>10</answer>", "prediction": "10", "gold": "4", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>38</answer>", "prediction": "38", "gold": "59", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>18</answer>", "prediction": "18", "gold": "4", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 975 </answer>", "prediction": "975", "gold": "255", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer> 7500 </answer>", "prediction": "7500", "gold": "20000", "correct": false, "format_ok": false, "num_chars": 23}
-{"completion": "<answer> 352 </answer>", "prediction": "352", "gold": "284", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>160</answer>", "prediction": "160", "gold": "10", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 600 </answer>", "prediction": "600", "gold": "100", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>6</answer>", "prediction": "6", "gold": "4", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer>64</answer>", "prediction": "64", "gold": "320", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 0 </answer>", "prediction": "0", "gold": "8", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 6 </answer>", "prediction": "6", "gold": "3", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>720</answer>", "prediction": "720", "gold": "2304", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> $0.80 </answer>", "prediction": "$0.80", "gold": "8", "correct": false, "format_ok": false, "num_chars": 24}
-{"completion": "<answer> 30 </answer>", "prediction": "30", "gold": "16", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 14 </answer>", "prediction": "14", "gold": "19", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>12</answer>", "prediction": "12", "gold": "11", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>4</answer>", "prediction": "4", "gold": "14", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer>2</answer>", "prediction": "2", "gold": "4", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer> 1264 </answer>", "prediction": "1264", "gold": "306", "correct": false, "format_ok": false, "num_chars": 23}
-{"completion": "<answer>34</answer>", "prediction": "34", "gold": "48", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 8 </answer>", "prediction": "8", "gold": "4", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 3650 </answer>", "prediction": "3650", "gold": "319", "correct": false, "format_ok": false, "num_chars": 23}
-{"completion": "<answer> 2880 </answer>", "prediction": "2880", "gold": "220", "correct": false, "format_ok": false, "num_chars": 23}
-{"completion": "<answer> $144 </answer>", "prediction": "$144", "gold": "132", "correct": false, "format_ok": false, "num_chars": 23}
-{"completion": "<answer> 20 </answer>", "prediction": "20", "gold": "10", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>15</answer> hours", "prediction": "15", "gold": "17", "correct": false, "format_ok": false, "num_chars": 25}
-{"completion": "<answer>60</answer>", "prediction": "60", "gold": "75", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>300</answer>", "prediction": "300", "gold": "2400", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 30 </answer>", "prediction": "30", "gold": "71", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 300 </answer>", "prediction": "300", "gold": "300", "correct": true, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>380</answer>", "prediction": "380", "gold": "40", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>4</answer>", "prediction": "4", "gold": "4", "correct": true, "format_ok": false, "num_chars": 18}
-{"completion": "<answer> 40 </answer>", "prediction": "40", "gold": "75", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>154</answer>", "prediction": "154", "gold": "74", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>80</answer>", "prediction": "80", "gold": "26", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>3 </answer>", "prediction": "3", "gold": "15", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>10</answer>", "prediction": "10", "gold": "5", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>79 </answer>", "prediction": "79", "gold": "74", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 48 </answer>", "prediction": "48", "gold": "16", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 30 </answer>", "prediction": "30", "gold": "50", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 360 </answer>", "prediction": "360", "gold": "156", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>4</answer>", "prediction": "4", "gold": "1", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer>12</answer>", "prediction": "12", "gold": "6", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 70 </answer>", "prediction": "70", "gold": "100", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>4</answer>", "prediction": "4", "gold": "60", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer> 50 </answer>", "prediction": "50", "gold": "32", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 100 </answer>", "prediction": "100", "gold": "1800", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>26</answer>", "prediction": "26", "gold": "70", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 24 </answer>", "prediction": "24", "gold": "80", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>9</answer>", "prediction": "9", "gold": "28", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer>14</answer>", "prediction": "14", "gold": "24", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> $400 </answer>", "prediction": "$400", "gold": "220", "correct": false, "format_ok": false, "num_chars": 23}
-{"completion": "<answer> 48 </answer>", "prediction": "48", "gold": "6", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>7</answer>", "prediction": "7", "gold": "9", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer>12</answer>", "prediction": "12", "gold": "6", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>5</answer>", "prediction": "5", "gold": "18", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer>180</answer>", "prediction": "180", "gold": "180", "correct": true, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>28</answer>", "prediction": "28", "gold": "20", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 192 </answer>", "prediction": "192", "gold": "1248", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>14</answer>", "prediction": "14", "gold": "14", "correct": true, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>189</answer>", "prediction": "189", "gold": "243", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 78 </answer>", "prediction": "78", "gold": "34", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>800 </answer>", "prediction": "800", "gold": "800", "correct": true, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 475 </answer>", "prediction": "475", "gold": "450", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>16</answer>", "prediction": "16", "gold": "7", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 4800 </answer>", "prediction": "4800", "gold": "31", "correct": false, "format_ok": false, "num_chars": 23}
-{"completion": "<answer> 30 </answer>", "prediction": "30", "gold": "8", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 47 </answer>", "prediction": "47", "gold": "120", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 10 </answer>", "prediction": "10", "gold": "10", "correct": true, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 10 </answer>", "prediction": "10", "gold": "2", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>48</answer>", "prediction": "48", "gold": "260", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 59 </answer>", "prediction": "59", "gold": "31", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>348</answer>", "prediction": "348", "gold": "1260", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>200 </answer>", "prediction": "200", "gold": "60", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>23</answer>", "prediction": "23", "gold": "8", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>12</answer>", "prediction": "12", "gold": "10", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 300 </answer>", "prediction": "300", "gold": "315", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer> 106 </answer>", "prediction": "106", "gold": "221", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>6</answer>", "prediction": "6", "gold": "3", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer>12</answer>", "prediction": "12", "gold": "7", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>24</answer>", "prediction": "24", "gold": "45", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 20 </answer>", "prediction": "20", "gold": "30", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>2.4</answer>", "prediction": "2.4", "gold": "50", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 28 </answer>", "prediction": "28", "gold": "21", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 17.5 </answer>", "prediction": "17.5", "gold": "70", "correct": false, "format_ok": false, "num_chars": 23}
-{"completion": "<answer>12</answer>", "prediction": "12", "gold": "16", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 4 </answer>", "prediction": "4", "gold": "23", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 56 </answer>", "prediction": "56", "gold": "10", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer>4</answer>", "prediction": "4", "gold": "4", "correct": true, "format_ok": false, "num_chars": 18}
-{"completion": "<answer>720</answer>", "prediction": "720", "gold": "1800", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>85</answer>", "prediction": "85", "gold": "50", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 40 </answer>", "prediction": "40", "gold": "320", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 360 </answer>", "prediction": "360", "gold": "1128", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>360</answer>", "prediction": "360", "gold": "6", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>10</answer>", "prediction": "10", "gold": "11", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>16</answer>", "prediction": "16", "gold": "2", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 2.4 </answer>", "prediction": "2.4", "gold": "5", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>2160</answer>", "prediction": "2160", "gold": "240", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 80 </answer>", "prediction": "80", "gold": "60", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 36 </answer>", "prediction": "36", "gold": "58", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 7 </answer>", "prediction": "7", "gold": "7", "correct": true, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>40</answer>", "prediction": "40", "gold": "55", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 40 </answer>", "prediction": "40", "gold": "3", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 25000 </answer>", "prediction": "25000", "gold": "70000", "correct": false, "format_ok": false, "num_chars": 24}
-{"completion": "<answer> 34 </answer>", "prediction": "34", "gold": "27", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 360 </answer>", "prediction": "360", "gold": "360", "correct": true, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>900</answer>", "prediction": "900", "gold": "1170", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>6</answer>", "prediction": "6", "gold": "5", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer> 30 </answer>", "prediction": "30", "gold": "40", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 485 </answer>", "prediction": "485", "gold": "1125", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>308</answer>", "prediction": "308", "gold": "736", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>4</answer>", "prediction": "4", "gold": "2", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer>4</answer>", "prediction": "4", "gold": "2", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer>645</answer>", "prediction": "645", "gold": "762", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 300 </answer>", "prediction": "300", "gold": "40", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>95 </answer>", "prediction": "95", "gold": "33", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 16 </answer>", "prediction": "16", "gold": "11", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 180 </answer>", "prediction": "180", "gold": "76", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>6</answer>", "prediction": "6", "gold": "4", "correct": false, "format_ok": false, "num_chars": 18}
-{"completion": "<answer> 32 </answer>", "prediction": "32", "gold": "160", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> $480 </answer>", "prediction": "$480", "gold": "240", "correct": false, "format_ok": false, "num_chars": 23}
-{"completion": "<answer> 6 </answer>", "prediction": "6", "gold": "2", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>10000</answer>", "prediction": "10000", "gold": "14000", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer>16</answer>", "prediction": "16", "gold": "7", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>16</answer>", "prediction": "16", "gold": "6", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>1</answer>", "prediction": "1", "gold": "1", "correct": true, "format_ok": false, "num_chars": 18}
-{"completion": "<answer> 84 </answer>", "prediction": "84", "gold": "168", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> $16.40 </answer>", "prediction": "$16.40", "gold": "11", "correct": false, "format_ok": false, "num_chars": 25}
-{"completion": "<answer>140</answer>", "prediction": "140", "gold": "110", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>102</answer>", "prediction": "102", "gold": "82", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 93 </answer>", "prediction": "93", "gold": "162", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 33 </answer>", "prediction": "33", "gold": "240", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 60 </answer>", "prediction": "60", "gold": "120", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 0.75 </answer>", "prediction": "0.75", "gold": "3", "correct": false, "format_ok": false, "num_chars": 23}
-{"completion": "<answer>240</answer>", "prediction": "240", "gold": "310", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 15 </answer>", "prediction": "15", "gold": "8", "correct": false, "format_ok": false, "num_chars": 21}
-{"completion": "<answer> 8 </answer>", "prediction": "8", "gold": "14", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer> 4 </answer>", "prediction": "4", "gold": "6", "correct": false, "format_ok": false, "num_chars": 20}
-{"completion": "<answer>15</answer>", "prediction": "15", "gold": "30", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer>8 </answer>", "prediction": "8", "gold": "2", "correct": false, "format_ok": false, "num_chars": 19}
-{"completion": "<answer> 900 </answer>", "prediction": "900", "gold": "595", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer> 148 </answer>", "prediction": "148", "gold": "23", "correct": false, "format_ok": false, "num_chars": 22}
-{"completion": "<answer> 108 </answer>", "prediction": "108", "gold": "7", "correct": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer> 185 </answer>", "prediction": "185", "gold": "400", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>15</answer>", "prediction": "15", "gold": "25", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>6</answer>", "prediction": "6", "gold": "3", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer>400</answer>", "prediction": "400", "gold": "800", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 3 </answer>", "prediction": "3", "gold": "5", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>4</answer>", "prediction": "4", "gold": "13", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer> 8 </answer>", "prediction": "8", "gold": "8", "correct": true, "correct_lenient": true, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>35</answer>", "prediction": "35", "gold": "30", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 50 </answer>", "prediction": "50", "gold": "145", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>10</answer>", "prediction": "10", "gold": "20", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>38</answer>", "prediction": "38", "gold": "90", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>6.80</answer>", "prediction": "6.80", "gold": "7", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 60 </answer>", "prediction": "60", "gold": "104", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 45 </answer>", "prediction": "45", "gold": "5", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>10</answer>", "prediction": "10", "gold": "25", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 384 </answer>", "prediction": "384", "gold": "96", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>240</answer>", "prediction": "240", "gold": "296", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 47 </answer>", "prediction": "47", "gold": "26", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>28</answer>", "prediction": "28", "gold": "52", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 120 </answer>", "prediction": "120", "gold": "150", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>120</answer>", "prediction": "120", "gold": "2", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>20</answer>", "prediction": "20", "gold": "5", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 720 </answer>", "prediction": "720", "gold": "144", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>600</answer>", "prediction": "600", "gold": "490", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>90</answer>", "prediction": "90", "gold": "320", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 36 </answer>", "prediction": "36", "gold": "144", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>5</answer>", "prediction": "5", "gold": "15", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer>36</answer>", "prediction": "36", "gold": "30", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 4 </answer>", "prediction": "4", "gold": "7", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 300 </answer>", "prediction": "300", "gold": "225", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>40</answer>", "prediction": "40", "gold": "8", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>18</answer>", "prediction": "18", "gold": "22", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>8</answer>", "prediction": "8", "gold": "8", "correct": true, "correct_lenient": true, "format_ok": false, "num_chars": 18}
+{"completion": "<answer>20</answer>", "prediction": "20", "gold": "56", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>40</answer>", "prediction": "40", "gold": "30", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>250</answer>", "prediction": "250", "gold": "250", "correct": true, "correct_lenient": true, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>37</answer>", "prediction": "37", "gold": "9", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>30,000</answer>", "prediction": "30,000", "gold": "90000", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 23}
+{"completion": "<answer> 4 </answer>", "prediction": "4", "gold": "1", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 480 </answer>", "prediction": "480", "gold": "480", "correct": true, "correct_lenient": true, "format_ok": false, "num_chars": 22}
+{"completion": "<answer> 480 </answer>", "prediction": "480", "gold": "288", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>56</answer>", "prediction": "56", "gold": "40", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>1800</answer>", "prediction": "1800", "gold": "18000", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>28</answer>", "prediction": "28", "gold": "14", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>19</answer>", "prediction": "19", "gold": "12", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 4750 </answer>", "prediction": "4750", "gold": "17500", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 23}
+{"completion": "<answer>15</answer>", "prediction": "15", "gold": "67", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 160 </answer>", "prediction": "160", "gold": "20", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>34</answer>", "prediction": "34", "gold": "98", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 2 </answer>", "prediction": "2", "gold": "4", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 3840 </answer>", "prediction": "3840", "gold": "1198", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 23}
+{"completion": "<answer> 3 </answer>", "prediction": "3", "gold": "2", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>950</answer>", "prediction": "950", "gold": "4500", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 6250 </answer>", "prediction": "6250", "gold": "6,250", "correct": true, "correct_lenient": true, "format_ok": false, "num_chars": 23}
+{"completion": "<answer>18% </answer>", "prediction": "18%", "gold": "12", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>3600</answer>", "prediction": "3600", "gold": "168000", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>10</answer>", "prediction": "10", "gold": "4", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>38</answer>", "prediction": "38", "gold": "59", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>18</answer>", "prediction": "18", "gold": "4", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 975 </answer>", "prediction": "975", "gold": "255", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer> 7500 </answer>", "prediction": "7500", "gold": "20000", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 23}
+{"completion": "<answer> 352 </answer>", "prediction": "352", "gold": "284", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>160</answer>", "prediction": "160", "gold": "10", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 600 </answer>", "prediction": "600", "gold": "100", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>6</answer>", "prediction": "6", "gold": "4", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer>64</answer>", "prediction": "64", "gold": "320", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 0 </answer>", "prediction": "0", "gold": "8", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 6 </answer>", "prediction": "6", "gold": "3", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>720</answer>", "prediction": "720", "gold": "2304", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> $0.80 </answer>", "prediction": "$0.80", "gold": "8", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 24}
+{"completion": "<answer> 30 </answer>", "prediction": "30", "gold": "16", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 14 </answer>", "prediction": "14", "gold": "19", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>12</answer>", "prediction": "12", "gold": "11", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>4</answer>", "prediction": "4", "gold": "14", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer>2</answer>", "prediction": "2", "gold": "4", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer> 1264 </answer>", "prediction": "1264", "gold": "306", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 23}
+{"completion": "<answer>34</answer>", "prediction": "34", "gold": "48", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 8 </answer>", "prediction": "8", "gold": "4", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 3650 </answer>", "prediction": "3650", "gold": "319", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 23}
+{"completion": "<answer> 2880 </answer>", "prediction": "2880", "gold": "220", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 23}
+{"completion": "<answer> $144 </answer>", "prediction": "$144", "gold": "132", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 23}
+{"completion": "<answer> 20 </answer>", "prediction": "20", "gold": "10", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>15</answer> hours", "prediction": "15", "gold": "17", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 25}
+{"completion": "<answer>60</answer>", "prediction": "60", "gold": "75", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>300</answer>", "prediction": "300", "gold": "2400", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 30 </answer>", "prediction": "30", "gold": "71", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 300 </answer>", "prediction": "300", "gold": "300", "correct": true, "correct_lenient": true, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>380</answer>", "prediction": "380", "gold": "40", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>4</answer>", "prediction": "4", "gold": "4", "correct": true, "correct_lenient": true, "format_ok": false, "num_chars": 18}
+{"completion": "<answer> 40 </answer>", "prediction": "40", "gold": "75", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>154</answer>", "prediction": "154", "gold": "74", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>80</answer>", "prediction": "80", "gold": "26", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>3 </answer>", "prediction": "3", "gold": "15", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>10</answer>", "prediction": "10", "gold": "5", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>79 </answer>", "prediction": "79", "gold": "74", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 48 </answer>", "prediction": "48", "gold": "16", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 30 </answer>", "prediction": "30", "gold": "50", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 360 </answer>", "prediction": "360", "gold": "156", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>4</answer>", "prediction": "4", "gold": "1", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer>12</answer>", "prediction": "12", "gold": "6", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 70 </answer>", "prediction": "70", "gold": "100", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>4</answer>", "prediction": "4", "gold": "60", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer> 50 </answer>", "prediction": "50", "gold": "32", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 100 </answer>", "prediction": "100", "gold": "1800", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>26</answer>", "prediction": "26", "gold": "70", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 24 </answer>", "prediction": "24", "gold": "80", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>9</answer>", "prediction": "9", "gold": "28", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer>14</answer>", "prediction": "14", "gold": "24", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> $400 </answer>", "prediction": "$400", "gold": "220", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 23}
+{"completion": "<answer> 48 </answer>", "prediction": "48", "gold": "6", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>7</answer>", "prediction": "7", "gold": "9", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer>12</answer>", "prediction": "12", "gold": "6", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>5</answer>", "prediction": "5", "gold": "18", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer>180</answer>", "prediction": "180", "gold": "180", "correct": true, "correct_lenient": true, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>28</answer>", "prediction": "28", "gold": "20", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 192 </answer>", "prediction": "192", "gold": "1248", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>14</answer>", "prediction": "14", "gold": "14", "correct": true, "correct_lenient": true, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>189</answer>", "prediction": "189", "gold": "243", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 78 </answer>", "prediction": "78", "gold": "34", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>800 </answer>", "prediction": "800", "gold": "800", "correct": true, "correct_lenient": true, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 475 </answer>", "prediction": "475", "gold": "450", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>16</answer>", "prediction": "16", "gold": "7", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 4800 </answer>", "prediction": "4800", "gold": "31", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 23}
+{"completion": "<answer> 30 </answer>", "prediction": "30", "gold": "8", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 47 </answer>", "prediction": "47", "gold": "120", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 10 </answer>", "prediction": "10", "gold": "10", "correct": true, "correct_lenient": true, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 10 </answer>", "prediction": "10", "gold": "2", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>48</answer>", "prediction": "48", "gold": "260", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 59 </answer>", "prediction": "59", "gold": "31", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>348</answer>", "prediction": "348", "gold": "1260", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>200 </answer>", "prediction": "200", "gold": "60", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>23</answer>", "prediction": "23", "gold": "8", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>12</answer>", "prediction": "12", "gold": "10", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 300 </answer>", "prediction": "300", "gold": "315", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer> 106 </answer>", "prediction": "106", "gold": "221", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>6</answer>", "prediction": "6", "gold": "3", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer>12</answer>", "prediction": "12", "gold": "7", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>24</answer>", "prediction": "24", "gold": "45", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 20 </answer>", "prediction": "20", "gold": "30", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>2.4</answer>", "prediction": "2.4", "gold": "50", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 28 </answer>", "prediction": "28", "gold": "21", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 17.5 </answer>", "prediction": "17.5", "gold": "70", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 23}
+{"completion": "<answer>12</answer>", "prediction": "12", "gold": "16", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 4 </answer>", "prediction": "4", "gold": "23", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 56 </answer>", "prediction": "56", "gold": "10", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer>4</answer>", "prediction": "4", "gold": "4", "correct": true, "correct_lenient": true, "format_ok": false, "num_chars": 18}
+{"completion": "<answer>720</answer>", "prediction": "720", "gold": "1800", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>85</answer>", "prediction": "85", "gold": "50", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 40 </answer>", "prediction": "40", "gold": "320", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 360 </answer>", "prediction": "360", "gold": "1128", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>360</answer>", "prediction": "360", "gold": "6", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>10</answer>", "prediction": "10", "gold": "11", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>16</answer>", "prediction": "16", "gold": "2", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 2.4 </answer>", "prediction": "2.4", "gold": "5", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>2160</answer>", "prediction": "2160", "gold": "240", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 80 </answer>", "prediction": "80", "gold": "60", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 36 </answer>", "prediction": "36", "gold": "58", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 7 </answer>", "prediction": "7", "gold": "7", "correct": true, "correct_lenient": true, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>40</answer>", "prediction": "40", "gold": "55", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 40 </answer>", "prediction": "40", "gold": "3", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 25000 </answer>", "prediction": "25000", "gold": "70000", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 24}
+{"completion": "<answer> 34 </answer>", "prediction": "34", "gold": "27", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 360 </answer>", "prediction": "360", "gold": "360", "correct": true, "correct_lenient": true, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>900</answer>", "prediction": "900", "gold": "1170", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>6</answer>", "prediction": "6", "gold": "5", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer> 30 </answer>", "prediction": "30", "gold": "40", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 485 </answer>", "prediction": "485", "gold": "1125", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>308</answer>", "prediction": "308", "gold": "736", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>4</answer>", "prediction": "4", "gold": "2", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer>4</answer>", "prediction": "4", "gold": "2", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer>645</answer>", "prediction": "645", "gold": "762", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 300 </answer>", "prediction": "300", "gold": "40", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>95 </answer>", "prediction": "95", "gold": "33", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 16 </answer>", "prediction": "16", "gold": "11", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 180 </answer>", "prediction": "180", "gold": "76", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>6</answer>", "prediction": "6", "gold": "4", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 18}
+{"completion": "<answer> 32 </answer>", "prediction": "32", "gold": "160", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> $480 </answer>", "prediction": "$480", "gold": "240", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 23}
+{"completion": "<answer> 6 </answer>", "prediction": "6", "gold": "2", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>10000</answer>", "prediction": "10000", "gold": "14000", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer>16</answer>", "prediction": "16", "gold": "7", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>16</answer>", "prediction": "16", "gold": "6", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>1</answer>", "prediction": "1", "gold": "1", "correct": true, "correct_lenient": true, "format_ok": false, "num_chars": 18}
+{"completion": "<answer> 84 </answer>", "prediction": "84", "gold": "168", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> $16.40 </answer>", "prediction": "$16.40", "gold": "11", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 25}
+{"completion": "<answer>140</answer>", "prediction": "140", "gold": "110", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>102</answer>", "prediction": "102", "gold": "82", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 93 </answer>", "prediction": "93", "gold": "162", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 33 </answer>", "prediction": "33", "gold": "240", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 60 </answer>", "prediction": "60", "gold": "120", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 0.75 </answer>", "prediction": "0.75", "gold": "3", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 23}
+{"completion": "<answer>240</answer>", "prediction": "240", "gold": "310", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 15 </answer>", "prediction": "15", "gold": "8", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 21}
+{"completion": "<answer> 8 </answer>", "prediction": "8", "gold": "14", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer> 4 </answer>", "prediction": "4", "gold": "6", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 20}
+{"completion": "<answer>15</answer>", "prediction": "15", "gold": "30", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer>8 </answer>", "prediction": "8", "gold": "2", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 19}
+{"completion": "<answer> 900 </answer>", "prediction": "900", "gold": "595", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer> 148 </answer>", "prediction": "148", "gold": "23", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
+{"completion": "<answer> 108 </answer>", "prediction": "108", "gold": "7", "correct": false, "correct_lenient": false, "format_ok": false, "num_chars": 22}
