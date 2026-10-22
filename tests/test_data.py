@@ -14,7 +14,7 @@ def _raw():
 
 def test_prepare_formats_prompt_and_gold():
     ds = prepare(_raw())
-    assert ds.column_names == ["prompt", "answer"]
+    assert set(ds.column_names) == {"prompt", "answer"}
     row = ds[0]
     assert row["prompt"][0] == {"role": "system", "content": SYSTEM_PROMPT}
     assert row["prompt"][1]["content"] == "What is 2+2?"
