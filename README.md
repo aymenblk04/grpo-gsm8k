@@ -150,8 +150,8 @@ run, so the bare-number bonus (~0.23 of the ~0.30 mean reward) **drove the
 hack on its own**. A single cheap reward term is enough. The run also shows
 how much evaluation settings matter for the baseline: allowing 400 instead of
 256 new tokens moves the zero-shot lenient accuracy from 32% to 42.5%, since
-fewer answers are cut off. (The two zero-shot evaluations also use different
-random 200-question subsets.)
+fewer answers are cut off. Both evaluations use the same 200 questions
+(seeded shuffle), so the only difference is the token budget.
 
 ### v2: fixes (to be run)
 
