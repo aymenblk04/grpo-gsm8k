@@ -55,7 +55,10 @@ def train(cfg: dict, model=None, tokenizer=None, train_dataset=None) -> GRPOTrai
     reward_funcs, weights = build_reward_funcs(cfg["rewards"])
     if train_dataset is None:
         train_dataset = load_gsm8k(
-            "train", num_samples=cfg["data"].get("train_samples"), seed=cfg.get("seed", 0)
+            "train",
+            num_samples=cfg["data"].get("train_samples"),
+            seed=cfg.get("seed", 0),
+            few_shot=cfg["data"].get("few_shot", False),
         )
     trainer = GRPOTrainer(
         model=model if model is not None else cfg["model_name"],
