@@ -30,7 +30,7 @@ grpo:
   beta: 0.04                  # KL coefficient
   num_train_epochs: 1
   max_steps: 300
-  warmup_ratio: 0.05
+  warmup_steps: 15
   logging_steps: 5
   save_steps: 100
   bf16: true
