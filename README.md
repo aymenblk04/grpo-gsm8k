@@ -153,23 +153,58 @@ how much evaluation settings matter for the baseline: allowing 400 instead of
 fewer answers are cut off. Both evaluations use the same 200 questions
 (seeded shuffle), so the only difference is the token budget.
 
-### v2: fixes (to be run)
+### v2: no more hacking, but almost no learning
 
-- Format rewards give **nothing unless `<think>` contains real reasoning**
-  (≥ 20 characters). The exact v1 outputs are now a regression test
-  (`tests/test_rewards.py`).
-- The bare-number bonus is off by default.
-- New `lenient_correctness` reward: 1.0 for a correct tagged answer and 0.5
-  for a correct untagged one, so the base model's reasoning is rewarded from
-  the first step while the format is learned.
-- Longer completions (300 tokens in training, 400 at evaluation) and lenient
-  accuracy reported next to tagged accuracy.
-- A `v1_rewards` ablation in `run_ablations.sh` reproduces the hack at full scale.
+Changes from v1:
+- format rewards give **nothing unless `<think>` contains real reasoning**
+  (≥ 20 characters), and the exact v1 outputs are a regression test
+  (`tests/test_rewards.py`);
+- the bare-number bonus is off;
+- new `lenient_correctness` reward: 1.0 for a correct tagged answer, 0.5 for a
+  correct untagged one;
+- 300 completion tokens in training, 400 at evaluation.
 
-| model | accuracy (tagged) | accuracy (lenient) | format rate |
-|---|---|---|---|
-| zero-shot | – | – | – |
-| + GRPO v2 | – | – | – |
+Same Colab budget as before (100 steps, G = 4, 500 questions, ~38 min on a T4),
+evaluated on the same 200 test questions. Raw outputs are in
+[`docs/results/v2`](docs/results/v2).
+
+| model | accuracy (tagged) | accuracy (lenient) | format rate | mean length (chars) |
+|---|---|---|---|---|
+| zero-shot | 0.0% | 42.5% | 0.0% | 911 |
+| + GRPO v2 (100 steps) | 0.0% | **45.5%** | 0.0% | 916 |
+
+![v2 training curves](docs/results/v2/training_curves.png)
+
+**The collapse is gone.** Completion length stays around 220-240 tokens for the
+whole run, against ~10 tokens in v1/v1b, and the model keeps reasoning step by
+step.
+
+**But the policy barely moved.**
+- The KL to the reference stays at ~0.001 (v1 reached 0.4).
+- 62 of the 200 evaluation outputs are identical to the zero-shot ones.
+- The +3 points are not significant. On the same questions, 13 go from wrong to
+  right and 7 from right to wrong, and an exact McNemar test gives p ≈ 0.26.
+
+**Why.** Two problems with the learning signal:
+1. **The format is never discovered.** The model never writes `<think>` or
+   `<answer>` on its own (0 of 200 eval outputs), so both format rewards are 0
+   on every sample of the run, and the reward reduces to the 0.5 lenient
+   credit. GRPO can only reinforce behaviour that the model already samples
+   sometimes; the format reward is too sparse to be found by exploration.
+2. **Many groups carry no signal.** With G = 4, 40-60% of the groups have
+   identical rewards (all right or all wrong), so their advantages are zero.
+
+Together with the low learning rate (5e-6 with LoRA), this gives very small
+updates. The v1 hack moved the policy only because a trivial behaviour was
+paid well.
+
+### Next steps
+- **Bootstrap the format** before RL: a few-shot example in the prompt, or a
+  short SFT warm-up on formatted solutions (the "cold start" used for
+  DeepSeek-R1, see [sft-dpo-math](https://github.com/aymenblk04/sft-dpo-math)).
+- **Larger groups** (G = 8-16) to reduce the share of zero-advantage groups, and
+  a higher LoRA learning rate (1e-5 to 5e-5).
+- Longer runs: 100 steps × 4 prompts only covers 400 questions.
 
 ## Notes
 
